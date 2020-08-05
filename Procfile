@@ -1,1 +1,1 @@
-web: gunicorn alurareceita.wsgi --max-requests 1200
+web: gunicorn setup.wsgi --max-requests 1200
